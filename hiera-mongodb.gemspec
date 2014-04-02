@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*.rb"]
   s.files += ["LICENSE"]
 
+  s.add_dependency 'bson_ext', '~> 1.8.5'
   s.add_dependency 'hiera', '~> 1.0'
   s.add_dependency 'mongo', '~> 1.8.5'
   s.add_dependency 'json', '~> 1.7'
